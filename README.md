@@ -1,0 +1,2 @@
+# blueprint
+ProcessWire Module Blueprint
