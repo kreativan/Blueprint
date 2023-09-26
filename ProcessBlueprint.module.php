@@ -44,6 +44,13 @@ class ProcessBlueprint extends Process implements WirePageEditor {
   // --------------------------------------------------------- 
   // Admin Pages 
   // --------------------------------------------------------- 
+	
+	/**
+	 * Custom Admin Page Edit
+	 */
+	public function executeEdit() {
+    return $this->AdminHelper->adminPageEdit();
+  }
 
   /**
    * Main module admin page
@@ -89,7 +96,8 @@ class ProcessBlueprint extends Process implements WirePageEditor {
       "page_name" => "subpage",
     ];
   }
-
+	
+	
   // --------------------------------------------------------- 
   // Query items
   // --------------------------------------------------------- 
