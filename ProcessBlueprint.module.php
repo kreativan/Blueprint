@@ -30,7 +30,7 @@ class ProcessBlueprint extends Process implements WirePageEditor {
      * @param array $GET - name of the get variable eg: 'my_action' eg: '?my_action=delete'
      * @param string $module - module name
      */
-    $this->AdminHelper->autoloadActions('my_action', 'ProcessBlueprint');
+    $this->AdminHelper->autoloadActions('my_action', $this);
   }
 
   // --------------------------------------------------------- 
